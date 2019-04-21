@@ -25,7 +25,6 @@ class TaskList extends Component {
   }
   
   render() {
-    console.log("TaskList");
     const {list, count, hasError, isLoading} = this.props.taskListData;
     if (hasError)
       return(
